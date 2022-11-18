@@ -22,8 +22,15 @@ if not status then
 end
 
 return packer.startup(function(use)
-  use("wbthomason/packer.nvim")
-  use("bluz71/vim-nightfly-guicolors")
+  use("wbthomason/packer.nvim") -- package manager
+  use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
+  use("bluz71/vim-nightfly-guicolors") -- color theme
+  use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
+  use ("szw/vim-maximizer") -- maximizes and restores current window
+  use("tpope/vim-surround")
+  use("vim-scripts/ReplaceWithRegister")
+  use("numToStr/Comment.nvim") -- commenting with gc
+  use("nvim-tree/nvim-tree.lua") -- file explorer
   if packer_bootstrap then
     require("packer").sync()
   end
