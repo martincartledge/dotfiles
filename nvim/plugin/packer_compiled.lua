@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -99,15 +104,15 @@ _G.packer_plugins = {
     path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = true,
@@ -118,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/Users/mcartledge/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
