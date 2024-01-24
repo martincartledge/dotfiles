@@ -1,2 +1,2 @@
 require("martincartledge.core")
-require("martincartledge.lazy")
+require("martincartledge.core.lazy")
